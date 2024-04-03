@@ -1,0 +1,295 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.container {
+  max-width: 130rem;
+}
+
+.row {
+  padding: 0 4.8rem;
+}
+
+.section {
+  padding: 3.2rem 4.6rem;
+}
+
+/* HEADER */
+
+header {
+  font-size: 2.2rem;
+  margin-bottom: 12.8rem;
+  height: 11.8rem;
+}
+
+.brand-logo {
+  width: 22rem;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  color: #000;
+  padding: 10px 18px;
+  font-weight: 500;
+}
+
+.nav-icon {
+  font-size: 2.8rem;
+}
+
+.nav {
+  gap: 2.4rem;
+}
+
+.nav-link.nav-link-active {
+  font-weight: 800;
+}
+
+.heading-secondary {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  letter-spacing: 0.8rem;
+  font-weight: 700;
+  margin-bottom: 9.6rem;
+}
+
+.form-tagline {
+  text-align: center;
+  color: #e63227;
+  display: block;
+  font-size: 1.6rem;
+  margin-bottom: 2.4rem;
+  font-weight: 600;
+}
+
+/* HERO */
+
+.hero-section {
+  margin-bottom: 21rem;
+}
+.heading-primary {
+  font-size: 9.8rem;
+  margin-bottom: 4.5rem;
+}
+
+.word-highlight {
+  color: #e63227;
+}
+
+.lead {
+  font-size: 2.8rem;
+  line-height: 1.5;
+  margin-bottom: 5.6rem;
+  font-weight: 400;
+}
+
+.hero-img {
+  transition: all 1.5s;
+}
+.hero-img:hover {
+  transform: rotateY(180deg);
+}
+.btn-primary {
+  display: inline-block;
+
+  background: linear-gradient(to right, #e63227 25%, #282727);
+  border: none;
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  padding: 1.8rem 3.6rem;
+  letter-spacing: 4px;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #d63229;
+  box-shadow: 0 0 25px 2px #e63227;
+}
+
+/* COLLECTIONS */
+
+.collection-container {
+  margin-bottom: 12.8rem;
+  position: relative;
+}
+.collection-container::before {
+  content: "";
+  position: absolute;
+  width: 3.6rem;
+  height: 0.5rem;
+  background-color: #e63227;
+  left: 0.5rem;
+}
+.product-brand {
+  text-transform: uppercase;
+  font-size: 7.2rem;
+  margin-bottom: 1.8rem;
+  font-weight: 700;
+}
+
+.brand-description {
+  font-size: 1.8rem;
+  width: 70rem;
+  margin-bottom: 9.6rem;
+}
+.product-container {
+  justify-content: center;
+  gap: 6.4rem;
+  margin-bottom: 9.8rem;
+}
+
+.card {
+  padding: 0;
+  border: none;
+  box-shadow: 0 0 20px 1px #e0e0e0ca;
+  width: 32rem;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.img-box {
+  width: 100%;
+  height: 30rem;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+.product-img {
+  width: 100%;
+}
+
+.card-body {
+  padding: 2.4rem;
+}
+
+.product-name {
+  font-size: 1.8rem;
+  margin-bottom: 2.2rem;
+}
+
+.price {
+  font-weight: 600;
+  font-size: 2.8rem;
+  margin-bottom: 2.4rem;
+}
+
+.option-container {
+  padding: 0;
+  margin-bottom: 3.2rem;
+  font-size: 1.8rem;
+}
+
+.size-container,
+.quantity-container {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 0.6rem 1.2rem;
+
+  border: 1px solid #000;
+  width: 10.4rem;
+  border-radius: 3px;
+}
+
+.quantity-container {
+  margin-left: auto;
+}
+.dropdown-icon {
+  border: none;
+  background-color: #fff;
+}
+
+.btn-quantity {
+  border: none;
+  background-color: #fff;
+}
+
+.btn-secondary {
+  background-color: #000;
+  width: 100%;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-weight: 700;
+  font-size: 1.8rem;
+  padding: 1.2rem 2.4rem;
+  transition: all 0.3s;
+}
+
+.btn-secondary:hover,
+.btn-secondary:active {
+  background-color: #e63227 !important;
+  color: #fff !important;
+}
+
+/* REGISTRATION FORM */
+.registration-container {
+  margin-bottom: 9.8rem;
+}
+.form-img-container {
+  overflow: hidden;
+}
+.reg-img {
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover; */
+  object-fit: cover;
+  border-radius: 0.3rem;
+}
+
+.form {
+  width: 100%;
+  padding: 0;
+  row-gap: 2.4rem;
+  padding: 0 2.4rem;
+}
+
+.form input {
+  width: 48%;
+  font-size: 1.4rem;
+  padding: 1.2rem 1.8rem;
+  font-family: inherit;
+  border: 1px solid #000;
+  border-radius: 0.3rem;
+}
+
+.form input:nth-child(odd) {
+  margin-right: auto;
+}
+.form input:nth-child(7) {
+  width: 100%;
+  margin-bottom: 4.8rem;
+}
+.form input:last-child {
+  max-width: 12rem;
+}
+
+.btn-sign-up {
+  background-color: #e63227;
+  width: 100%;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-weight: 700;
+  font-size: 1.8rem;
+  padding: 1.2rem 2.4rem;
+  transition: all 0.3s;
+  color: #fff;
+  box-shadow: 0 0 8px 3px #adadadca;
+}
+
+.btn-sign-up:hover,
+.btn-sign-up:active {
+  background-color: #b32a22 !important;
+  color: #fff !important;
+}

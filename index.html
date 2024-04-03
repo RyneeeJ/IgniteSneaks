@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>IgniteSneaks</title>
+  </head>
+  <body>
+    <!-- Header Navigation -->
+    <div class="container">
+      <header
+        class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 border-bottom"
+      >
+        <div class="col-md-3 mb-2 mb-md-0">
+          <a
+            href="/"
+            class="d-inline-flex link-body-emphasis text-decoration-none"
+          >
+            <img class="brand-logo" src="./imgs/ignite-logo2.png" />
+          </a>
+        </div>
+
+        <nav>
+          <ul
+            class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0"
+          >
+            <li>
+              <a href="#" class="nav-link px-2 nav-link-active">Home</a>
+            </li>
+            <li><a href="#" class="nav-link px-2">Collection</a></li>
+            <li><a href="#" class="nav-link px-2">Register</a></li>
+            <li><a href="#" class="nav-link px-2">FAQs</a></li>
+          </ul>
+        </nav>
+
+        <div class="col-md-3 text-end">
+          <button class="btn me-2">
+            <i class="ph ph-shopping-cart nav-icon"></i>
+          </button>
+          <button class="btn">
+            <i class="ph ph-user-circle nav-icon"></i>
+          </button>
+        </div>
+      </header>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="container hero-section">
+      <div class="row flex-lg-row-reverse align-items-center hero">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img
+            src="./imgs/hero-img.png"
+            class="d-block mx-lg-auto img-fluid hero-img"
+            alt="Bootstrap Themes"
+            width="700"
+            height="500"
+            loading="lazy"
+          />
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 heading-primary">
+            Where style meets <span class="word-highlight">fire</span>.
+          </h1>
+          <p class="lead">
+            At IgniteSneaks, we are more than just a shoe store, we are a
+            celebration of modern style, individuality, and unrelenting passion
+            that fuels our love for footwear.
+          </p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button class="btn btn-primary">Explore now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Collection Section -->
+    <div class="container">
+      <div class="section">
+        <h2 class="heading-secondary">Collections</h2>
+        <div class="collection-container">
+          <!-- Nike Collection -->
+          <h3 class="product-brand">Nike</h3>
+          <p class="brand-description">
+            Synonymous with athletic performance and style, Nike is all about
+            innovation as they put athletes at the center of what they do.
+          </p>
+          <!-- Products  -->
+          <div class="product-container row">
+            <div class="card col-4">
+              <div class="img-box">
+                <img
+                  src="./imgs/products/nike1.png"
+                  class="card-img-top"
+                  alt="Nike Air Max 90"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="product-name">Nike Air Max 90</h5>
+
+                <p class="price col-8">P 7,299.00</p>
+                <div class="option-container row">
+                  <div class="col">
+                    <div class="size-container">
+                      <span>US 9.5</span>
+                      <button class="dropdown-icon">
+                        <i class="ph ph-caret-down"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="quantity-container">
+                      <button class="btn-quantity">&mdash;</button>
+                      <span>1</span>
+                      <button class="btn-quantity">&plus;</button>
+                    </div>
+                  </div>
+                </div>
+                <button class="btn btn-secondary">Add to Cart</button>
+              </div>
+            </div>
+            <div class="card col-4">
+              <div class="img-box">
+                <img
+                  src="./imgs/products/nike2.png"
+                  class="product-img"
+                  alt="Nike P-6000 Premium"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="product-name">Nike P-6000 Premium</h5>
+                <p class="price">P 6,699.00</p>
+                <div class="option-container row">
+                  <div class="col">
+                    <div class="size-container">
+                      <span>US 9.5</span>
+                      <button class="dropdown-icon">
+                        <i class="ph ph-caret-down"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="quantity-container">
+                      <button class="btn-quantity">&mdash;</button>
+                      <span>1</span>
+                      <button class="btn-quantity">&plus;</button>
+                    </div>
+                  </div>
+                </div>
+                <button class="btn btn-secondary">Add to Cart</button>
+              </div>
+            </div>
+
+            <div class="card col-4">
+              <div class="img-box">
+                <img
+                  src="./imgs/products/nike3.png"
+                  class="card-img-top"
+                  alt="Nike Dunk Low Retro"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="product-name">Nike Dunk Low Retro</h5>
+                <p class="price">P 6,499.00</p>
+                <div class="option-container row">
+                  <div class="col">
+                    <div class="size-container">
+                      <span>US 9.5</span>
+                      <button class="dropdown-icon">
+                        <i class="ph ph-caret-down"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="quantity-container">
+                      <button class="btn-quantity">&mdash;</button>
+                      <span>1</span>
+                      <button class="btn-quantity">&plus;</button>
+                    </div>
+                  </div>
+                </div>
+                <button class="btn btn-secondary">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="product-container row">
+            <div class="card col-4">
+              <div class="img-box">
+                <img
+                  src="./imgs/products/nike4.png"
+                  class="card-img-top"
+                  alt="Nike Air Max Dn"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="product-name">Nike Air Max Dn</h5>
+                <p class="price">P 8,999.00</p>
+                <div class="option-container row">
+                  <div class="col">
+                    <div class="size-container">
+                      <span>US 9.5</span>
+                      <button class="dropdown-icon">
+                        <i class="ph ph-caret-down"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="quantity-container">
+                      <button class="btn-quantity">&mdash;</button>
+                      <span>1</span>
+                      <button class="btn-quantity">&plus;</button>
+                    </div>
+                  </div>
+                </div>
+                <button class="btn btn-secondary">Add to Cart</button>
+              </div>
+            </div>
+            <div class="card col-4">
+              <div class="img-box">
+                <img
+                  src="./imgs/products/nike5.png"
+                  class="product-img"
+                  alt="Nike PAir Zoom TR 1"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="product-name">Nike PAir Zoom TR 1</h5>
+                <p class="price">P 7,299.00</p>
+                <div class="option-container row">
+                  <div class="col">
+                    <div class="size-container">
+                      <span>US 9.5</span>
+                      <button class="dropdown-icon">
+                        <i class="ph ph-caret-down"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="quantity-container">
+                      <button class="btn-quantity">&mdash;</button>
+                      <span>1</span>
+                      <button class="btn-quantity">&plus;</button>
+                    </div>
+                  </div>
+                </div>
+                <button class="btn btn-secondary">Add to Cart</button>
+              </div>
+            </div>
+            <div class="card col-4">
+              <div class="img-box">
+                <img
+                  src="./imgs/products/nike6.png"
+                  class="card-img-top"
+                  alt="Nike Air Max Plus Drift"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="product-name">Nike Air Max Plus Drift</h5>
+                <p class="price">P 10,399.00</p>
+                <div class="option-container row">
+                  <div class="col">
+                    <div class="size-container">
+                      <span>US 9.5</span>
+                      <button class="dropdown-icon">
+                        <i class="ph ph-caret-down"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="quantity-container">
+                      <button class="btn-quantity">&mdash;</button>
+                      <span>1</span>
+                      <button class="btn-quantity">&plus;</button>
+                    </div>
+                  </div>
+                </div>
+                <button class="btn btn-secondary">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Adidas Collection -->
+        <div class="collection-container">
+          <h3 class="product-brand">Adidas</h3>
+          <p class="brand-description">
+            Unleash your true potential wit hadidas gear designed for athletes
+            of all kinds.
+          </p>
+          <!-- Products -->
+          <div class="product-container row">
+            <div class="card col-4">
+              <div class="img-box">
+                <img
+                  src="./imgs/products/adidas1.png"
+                  class="card-img-top"
+                  alt="Forum Mod Low Shoes"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="product-name">Forum Mod Low Shoes</h5>
+                <p class="price">P 5,499.00</p>
+                <div class="option-container row">
+                  <div class="col">
+                    <div class="size-container">
+                      <span>US 9.5</span>
+                      <button class="dropdown-icon">
+                        <i class="ph ph-caret-down"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="quantity-container">
+                      <button class="btn-quantity">&mdash;</button>
+                      <span>1</span>
+                      <button class="btn-quantity">&plus;</button>
+                    </div>
+                  </div>
+                </div>
+                <button class="btn btn-secondary">Add to Cart</button>
+              </div>
+            </div>
+            <div class="card col-4">
+              <div class="img-box">
+                <img
+                  src="./imgs/products/adidas2.png"
+                  class="product-img"
+                  alt="Gazelle Indoor Shoes"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="product-name">Gazelle Indoor Shoes</h5>
+                <p class="price">P 7,999.00</p>
+                <div class="option-container row">
+                  <div class="col">
+                    <div class="size-container">
+                      <span>US 9.5</span>
+                      <button class="dropdown-icon">
+                        <i class="ph ph-caret-down"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="quantity-container">
+                      <button class="btn-quantity">&mdash;</button>
+                      <span>1</span>
+                      <button class="btn-quantity">&plus;</button>
+                    </div>
+                  </div>
+                </div>
+                <button class="btn btn-secondary">Add to Cart</button>
+              </div>
+            </div>
+            <div class="card col-4">
+              <div class="img-box">
+                <img
+                  src="./imgs/products/adidas3.png"
+                  class="card-img-top"
+                  alt="Handball Spezial Shoes"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="product-name">Handball Spezial Shoes</h5>
+                <p class="price">P 5,299.00</p>
+                <div class="option-container row">
+                  <div class="col">
+                    <div class="size-container">
+                      <span>US 9.5</span>
+                      <button class="dropdown-icon">
+                        <i class="ph ph-caret-down"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="quantity-container">
+                      <button class="btn-quantity">&mdash;</button>
+                      <span>1</span>
+                      <button class="btn-quantity">&plus;</button>
+                    </div>
+                  </div>
+                </div>
+                <button class="btn btn-secondary">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="product-container row">
+            <div class="card col-4">
+              <div class="img-box">
+                <img
+                  src="./imgs/products/adidas4.png"
+                  class="card-img-top"
+                  alt="TMNT Shell-Toe Shoes"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="product-name">TMNT Shell-Toe Shoes</h5>
+                <p class="price">P 7,699.00</p>
+                <div class="option-container row">
+                  <div class="col">
+                    <div class="size-container">
+                      <span>US 9.5</span>
+                      <button class="dropdown-icon">
+                        <i class="ph ph-caret-down"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="quantity-container">
+                      <button class="btn-quantity">&mdash;</button>
+                      <span>1</span>
+                      <button class="btn-quantity">&plus;</button>
+                    </div>
+                  </div>
+                </div>
+                <button class="btn btn-secondary">Add to Cart</button>
+              </div>
+            </div>
+            <div class="card col-4">
+              <div class="img-box">
+                <img
+                  src="./imgs/products/adidas5.png"
+                  class="product-img"
+                  alt="Samba OG Shoes"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="product-name">Samba OG Shoes</h5>
+                <p class="price">P 6,799.00</p>
+                <div class="option-container row">
+                  <div class="col">
+                    <div class="size-container">
+                      <span>US 9.5</span>
+                      <button class="dropdown-icon">
+                        <i class="ph ph-caret-down"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="quantity-container">
+                      <button class="btn-quantity">&mdash;</button>
+                      <span>1</span>
+                      <button class="btn-quantity">&plus;</button>
+                    </div>
+                  </div>
+                </div>
+                <button class="btn btn-secondary">Add to Cart</button>
+              </div>
+            </div>
+            <div class="card col-4">
+              <div class="img-box">
+                <img
+                  src="./imgs/products/adidas6.png"
+                  class="card-img-top"
+                  alt="Stan Smith X Bape Shoues"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="product-name">Stan Smith X Bape Shoues</h5>
+                <p class="price">P 9,499.00</p>
+                <div class="option-container row">
+                  <div class="col">
+                    <div class="size-container">
+                      <span>US 9.5</span>
+                      <button class="dropdown-icon">
+                        <i class="ph ph-caret-down"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="quantity-container">
+                      <button class="btn-quantity">&mdash;</button>
+                      <span>1</span>
+                      <button class="btn-quantity">&plus;</button>
+                    </div>
+                  </div>
+                </div>
+                <button class="btn btn-secondary">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Registration form -->
+    <div class="container">
+      <div class="registration-container section row">
+        <div class="col-6 form-img-container">
+          <img class="reg-img" src="./imgs/registration-bg.jpg" />
+        </div>
+        <div class="col-6">
+          <h2 class="heading-secondary">
+            Step into the <span class="word-highlight">fire</span>
+          </h2>
+          <form class="form row">
+            <input
+              id="user-id"
+              class="col-6"
+              type="text"
+              placeholder="User ID"
+              required
+            />
+            <input
+              id="username"
+              class="col-6"
+              type="text"
+              placeholder="Username"
+              required
+            />
+            <input
+              id="first-name"
+              class="col-6"
+              type="text"
+              placeholder="First Name"
+              required
+            />
+            <input
+              id="last-name"
+              class="col-6"
+              type="text"
+              placeholder="Last Name"
+              required
+            />
+            <input
+              id="email"
+              class="col-6"
+              type="email"
+              placeholder="Email"
+              required
+            />
+            <input
+              id="contact"
+              class="col-6"
+              type="text"
+              placeholder="Contact Number"
+              required
+            />
+            <input
+              id="address"
+              class="col-12"
+              type="text"
+              placeholder="Address"
+              required
+            />
+            <button class="btn btn-sign-up">Sign up</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
